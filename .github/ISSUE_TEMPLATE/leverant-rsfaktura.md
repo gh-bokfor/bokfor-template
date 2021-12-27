@@ -1,7 +1,7 @@
 ---
 name: Leverantörsfaktura
 about: Leverantörsfaktura
-title: ''
+title: 'Leverantörsfaktura: '
 labels: Leverantörsfaktura
 assignees: ''
 
