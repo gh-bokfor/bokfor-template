@@ -1,4 +1,4 @@
-name: Verifiera verifikat
+name: Verifiera bokföring
 
 on:
   pull_request:
@@ -13,6 +13,6 @@ jobs:
       - name: Checkout Source Code
         uses: actions/checkout@v2.4.0
       - name: Setup
-        uses: gh-bokfor/utlagg@main
+        uses: gh-bokfor/bokforing@main
       - name: Verifiera
         run: ls
