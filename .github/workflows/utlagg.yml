@@ -1,0 +1,11 @@
+name: Utlägg
+
+on:
+  issues
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: gh-bokfor/utlagg@main
