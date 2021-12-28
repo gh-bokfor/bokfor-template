@@ -1,4 +1,4 @@
-name: Verifiera bokföring
+name: Bokföring
 
 on:
   pull_request:
@@ -6,7 +6,8 @@ on:
       - main
 
 jobs:
-  build:
+  debet_kredit_balans:
+    name: Debet och kredit balanserar
     runs-on: ubuntu-latest
 
     steps:
