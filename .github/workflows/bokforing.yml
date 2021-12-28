@@ -6,14 +6,14 @@ on:
       - main
 
 jobs:
-  debet_kredit_balans:
-    name: Debet och kredit balanserar
+  verifiera:
+    name: Verifiera bokföring
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout Source Code
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@v2
       - name: Setup
         uses: gh-bokfor/bokforing@main
-      - name: Verifiera
+      - name: Debet och kredit balanserar
         run: ls
