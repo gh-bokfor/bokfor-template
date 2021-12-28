@@ -15,5 +15,3 @@ jobs:
         uses: actions/checkout@v2
       - name: Setup
         uses: gh-bokfor/bokforing@main
-      - name: Debet och kredit balanserar
-        run: ls
