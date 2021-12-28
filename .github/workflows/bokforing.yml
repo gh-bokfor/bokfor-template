@@ -16,4 +16,4 @@ jobs:
       - name: Setup
         uses: gh-bokfor/init@main
       - name: Verifiering
-        uses: gh-bokfor/verifiera@main
+        uses: arthurc/gh-bokforing/verifiera@main
