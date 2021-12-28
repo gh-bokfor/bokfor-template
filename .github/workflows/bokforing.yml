@@ -1,0 +1,18 @@
+name: Bokföring
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  verifiera:
+    name: Verifiera bokföring
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v2
+      - name: Setup
+        uses: arthurc/gh-bokforing/init@main
+      - name: Verifiering
+        uses: arthurc/gh-bokforing/verifiera@main
